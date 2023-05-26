@@ -1,0 +1,23 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+.grad {
+    background: linear-gradient(to right, cyan, violet);
+}
+.bio {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.flexbox-item {
+    border: 3px solid black;
+    background-color: grey;
+}
+
+.flexbox-item-name {
+    margin-top: 1%;
+    padding: 1em;
+
+}
