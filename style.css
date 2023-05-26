@@ -83,8 +83,23 @@ ul li a{
     max-width: 100%;
     max-height: auto;
 }
-/* 
-img[alt="gibby"] {
-    width:400px;
-    height: auto;
-} */
+
+.socialbox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.socialbox h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: cyan;
+    margin-bottom: 5px;
+}
+
+.socialbox .icons img  {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: cyan;
+}
