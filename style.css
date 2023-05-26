@@ -1,23 +1,65 @@
+
 * {
     font-family: 'Oswald', sans-serif;
 }
+
 .grad {
-    background: linear-gradient(to right, cyan, violet);
+    background: repeating-linear-gradient(rgb(6, 6, 40),rgb(41, 24, 84),rgb(6, 6, 40));
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid beige;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: beige;
+    font-size: 24px;
+}
+
+
 .bio {
     display: flex;
     flex: 1;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .flexbox-item {
     border: 3px solid black;
-    background-color: grey;
+
 }
 
 .flexbox-item-name {
-    margin-top: 1%;
-    padding: 1em;
+    margin: 10px;
+    padding: 10rem 10rem 2rem 10rem;
+    font-size: 3rem;
+    color: beige;
+}
 
+.flexbox-item-bio {
+    text-align: center;
+    width: 50%;
+    height: auto;
+    color: beige;
+}
+
+#showcase-title{
+    color: beige;
+    text-decoration: underline;
+    padding-left: 2rem;
+}
+
+#icons {
+    image-rendering: auto;
 }
