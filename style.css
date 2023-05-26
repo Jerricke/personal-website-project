@@ -35,10 +35,6 @@ ul li a{
     align-items: center;
 }
 
-.flexbox-item {
-    border: 3px solid black;
-
-}
 
 .flexbox-item-name {
     margin: 10px;
@@ -60,6 +56,35 @@ ul li a{
     padding-left: 2rem;
 }
 
-#icons {
-    image-rendering: auto;
+.photoshowcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%
+}
+
+.gallery .photo{
+    flex-basis: 33.33%;
+    min-width: 0;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: auto;
+}
+/* 
+img[alt="gibby"] {
+    width:400px;
+    height: auto;
+} */
